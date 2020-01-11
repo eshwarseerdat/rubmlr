@@ -1,0 +1,15 @@
+<link rel = 'stylesheet' href = './public/main.css'>
+
+<ul id = 'nav-layout'>
+  <li><a href="/">Home</a></li>
+  <% if session['user_id'] == nil %>
+  <li><a href="/signup">Sign up</a></li>
+  <li><a href="/login">Login</a></li>
+  <% end %>
+  <li><a href="/posts/new">Post</a></li>
+  <% if session['user_id'] %>
+    <form action='/logout' method='post'>
+       <input type='submit' value='Log out'>
+    </form>
+  <% end %>
+</ul>

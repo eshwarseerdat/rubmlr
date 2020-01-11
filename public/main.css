@@ -1,0 +1,110 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 auto;
+    background-color: #f6f4e6;
+}
+
+.home-page {
+    background-color: #f6f4e6;
+}
+
+.profile-page {
+    text-align: center;
+    list-style: none;
+}
+
+.post-page {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.post-page textarea {
+    margin-top: 1%;
+}
+
+.submit {
+    background-color: blue;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.submit:hover {
+    color:#fff;
+    background-color:#0069d9;
+    border-color:#0062cc;
+}
+
+a {
+    margin-left: .5%;
+}
+
+.header-content a {
+    margin-top: 2%;
+}
+
+.login {
+    text-align: center;
+}
+
+.login-header {
+    margin-top: 3%;
+}
+
+.login input {
+    margin-bottom: 1%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 3%;
+}
+
+#nav-layout {
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    background-color: rgb(151, 195, 233);
+    padding-bottom: 6px;
+    padding-top: 6px;
+    margin-top: 0;
+}
+
+#nav-layout a {
+    text-decoration: none;
+    color: rgb(4, 4, 231);
+    margin-left: 5%;
+}
+
+#nav-layout a:hover {
+    color: rgb(58, 58, 156);
+}
+
+.header-content {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.signup {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.signup input {
+    margin-bottom: 1%;
+}
+
+#Home{
+    margin-top: 5px;
+}
+
+#posts{
+    background-color: aliceblue;
+    grid-area: post;
+}
